@@ -35,7 +35,7 @@ def is_safe_with_dampener(report: list[int]) -> bool:
             return True
     return False
 
-def day1() -> None:
+def part1() -> None:
     lines = read_lines_from_file(INPUT_FILE_PATH)
 
     res = 0
@@ -48,7 +48,7 @@ def day1() -> None:
     print_day_solution(1, res)
 
 
-def day2() -> None:
+def part2() -> None:
     lines = read_lines_from_file(INPUT_FILE_PATH)
 
     res = 0
@@ -62,5 +62,5 @@ def day2() -> None:
 
 
 if __name__ == "__main__":
-    day1()
-    day2()
+    part1()
+    part2()

@@ -3,7 +3,7 @@ from aoc24.utils import read_lines_from_file, print_day_solution
 INPUT_FILE_PATH = "./aoc24/day1/input.txt"
 
 
-def day1() -> None:
+def part1() -> None:
     list1: list[int] = []
     list2: list[int] = []
 
@@ -25,7 +25,7 @@ def day1() -> None:
     print_day_solution(1, res)
 
 
-def day2() -> None:
+def part2() -> None:
     list1: list[int] = []
     list2: list[int] = []
 
@@ -44,5 +44,5 @@ def day2() -> None:
 
 
 if __name__ == "__main__":
-    day1()
-    day2()
+    part1()
+    part2()
