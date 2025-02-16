@@ -14,9 +14,9 @@ def read_lines_from_file(file_path: str) -> list[str]:
     return lst
 
 
-def print_day_solution(day: Literal[1, 2], result: int) -> None:
+def print_day_solution(part: Literal[1, 2], result: int) -> None:
     """Prints a nicely formatted solution for a given day with color."""
-    print(f"{Fore.GREEN}Day {day}: Solution")
+    print(f"{Fore.GREEN}Part {part}: Solution")
     print(f"{Fore.BLUE}{'=' * 20}")
     print(f"{Fore.YELLOW}Result: {result}")
     print(f"{Fore.BLUE}{'=' * 20}\n")
